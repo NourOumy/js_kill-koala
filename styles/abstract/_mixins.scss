@@ -1,10 +1,9 @@
-@mixin transition($duration : .3s, $effet : ease-in-out) {
-    transition: $duration all $effet;
+@mixin transition($duree : .3s, $effet : ease-in-out) {
+  transition:$duree all $effet;
 }
-// le fait de mettre duration entre () va permettre de changer cette variable. on doit aussi le remettre sans les () à leur place (à la place de .3s mettre $duration). entre parenthèse, le fait de mettre : .3s il va mettre ça par défaut
-@mixin posamiddle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50% 0;
+@mixin absmiddle {
+  position: absolute;
+  top:50%;
+  left:50%;
+  translate:-50% -50% 0;
 }

@@ -4,10 +4,10 @@
 @import 'base/normalize';
 @import 'base/typography';
 
+@import 'layout/global';
+@import 'layout/nav';
+@import 'layout/header';
 @import 'layout/footer';
 @import 'layout/forms';
-@import 'layout/global';
-@import 'layout/header';
-@import 'layout/nav';
 
-@import 'pages/home'
+@import 'pages/home';
